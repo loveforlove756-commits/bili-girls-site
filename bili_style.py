@@ -13,7 +13,7 @@ def inject_css():
     [data-testid="stStatusWidget"] { display: none !important; }
     /* 隐藏顶栏后压缩主容器顶部留白，让内容整体上移（不影响弹窗） */
     .stApp > header { display: none !important; }
-    [data-testid="stMainBlockContainer"], .block-container { padding-top: 0.5rem !important; }
+    [data-testid="stMainBlockContainer"], .block-container { padding-top: 1.5rem !important; }
     .stMain > div { padding-top: 0 !important; }
     /* 强制增加 st.dialog 弹窗的宽度 */
     div[data-testid="stDialog"] > div {
