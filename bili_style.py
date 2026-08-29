@@ -11,6 +11,10 @@ def inject_css():
     footer[data-testid="stFooter"] { display: none !important; }
     [data-testid="stToolbar"] { display: none !important; }
     [data-testid="stStatusWidget"] { display: none !important; }
+    /* 隐藏顶栏后压缩主容器顶部留白，让内容整体上移（不影响弹窗） */
+    .stApp > header { display: none !important; }
+    [data-testid="stMainBlockContainer"], .block-container { padding-top: 0.5rem !important; }
+    .stMain > div { padding-top: 0 !important; }
     /* 强制增加 st.dialog 弹窗的宽度 */
     div[data-testid="stDialog"] > div {
         max-width: 80vw !important;
