@@ -1,0 +1,12 @@
+# Streamlit 配置：强制浅色主题（覆盖系统/浏览器的深色偏好）
+# set_page_config 的 theme 参数已在新版 Streamlit 中移除，故在此配置。
+
+[theme]
+base = "light"
+primaryColor = "#00A1D6"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F5F7"
+textColor = "#18191C"
+
+[server]
+headless = true
