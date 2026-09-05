@@ -110,4 +110,7 @@ def render_footer():
                 {MY_NAME}
             </a>
         </div>
+        <div style="text-align: center; padding: 4px 0 15px 0; color: #61666D; font-size: 14px;">
+            <span>更多内容详见</span><a href="https://www.bilibili.com/read/readlist/rl687141" target="_blank" style="color: #00A1D6; font-weight: bold; text-decoration: none;" onmouseover="this.style.color='#FF6699'" onmouseout="this.style.color='#00A1D6'">https://www.bilibili.com/read/readlist/rl687141</a>
+        </div>
     """, unsafe_allow_html=True)
